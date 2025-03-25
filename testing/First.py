@@ -6,5 +6,6 @@ soup = BeautifulSoup(page.text, 'html.parser')
 """print(soup.get_text()) //get all text
 print(soup.find(class_="bbcode"))"""
 
-results = soup.find_all(class_="bbcode")
+
+results = soup.find_all('div', class_="bbcode")[-1]
 print(results)
