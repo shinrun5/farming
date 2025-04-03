@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import time
 #inlcude <string>
 
 url = "https://osu.ppy.sh/community/forums/topics/2047212?n=1cl"
